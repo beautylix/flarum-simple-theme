@@ -1,0 +1,117 @@
+.Post-body {
+	font-size: 18px;
+}
+
+.Hero h1 {
+	color: var(--text-color);
+	font-weight: 600;
+	font-size: 3em;
+}
+
+.Hero {
+	background: transparent;
+}
+
+.DiscussionHero .item-title {
+	text-align: left;
+}
+
+.DiscussionHero .item-tags {
+	float: right;
+	margin-top: 1.5rem;
+}
+
+.Hero .container {
+	border-bottom: 1px solid #efefef;
+}
+
+.DiscussionHero .item-title {
+	margin-bottom: 15px;
+}
+
+.Post-body h1 {
+	color: var(--primary-color);
+}
+
+.Post-body h2 {
+	border-left: 1.3em solid var(--secondary-color);
+	padding-left: .5em;
+}
+
+.IndexPage-nav .item-newDiscussion {
+	display: none;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 1rem;
+        color: var(--discussion-title-color);
+}
+
+.PostUser-badges .Badge {
+	display: none;
+}
+
+.Header-title a {
+	color: var(--text-color);
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.DiscussionListItem-info > .item-tags {
+	display: none;
+}
+
+.DiscussionListItem-count {
+	display: none;
+}
+
+.item-controls .Button:not(.itemCount1):not(.Dropdown-toggle) .Button-label {
+	visibility: hidden;
+}
+
+.item-controls .Button:not(.itemCount1):not(.Dropdown-toggle) .Button-label:before {
+	content: "Login to View";
+	visibility: initial;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.EventPost, .EventPost a {
+	display: none;
+}
+
+.Post-body img, .Post-body iframe {
+	width: 100%;
+}
+
+.TagsPage .sideNav > ul > li:first-child {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.Post {
+		padding-left: 1rem;
+	}
+	
+	.PostUser-avatar {
+		left: -2.5rem;
+		top: -.5rem;
+		--size: 32px;
+	}
+	
+	.Post-header {
+		margin-left: 2.5rem;
+	}
+	
+	.ReplyPlaceholder .Avatar {
+		margin-top: -13px;
+		margin-left: 2em;
+	}
+}
+
+.PostStream-timeGap {
+	display: none;
+}
