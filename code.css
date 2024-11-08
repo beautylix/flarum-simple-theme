@@ -45,7 +45,7 @@
 .copyright {
 	text-align: center;
 	font-size: 1rem;
-        color: var(--discussion-title-color);
+	color: var(--discussion-title-color);
 }
 
 .PostUser-badges .Badge {
@@ -113,5 +113,21 @@
 }
 
 .PostStream-timeGap {
+	display: none;
+}
+
+.Header-title {
+	visibility: hidden;
+	width: 50%;
+}
+
+.Header-title:before {
+	content: "medmarch";
+	visibility: initial;
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+#home-link {
 	display: none;
 }
