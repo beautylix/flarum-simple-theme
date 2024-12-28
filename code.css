@@ -42,12 +42,6 @@
 	display: none;
 }
 
-.copyright {
-	text-align: center;
-	font-size: 1rem;
-	color: var(--discussion-title-color);
-}
-
 .PostUser-badges .Badge {
 	display: none;
 }
@@ -130,4 +124,22 @@
 
 #home-link {
 	display: none;
+}
+
+.footnav {
+	float: left;
+	font-size: 1rem;
+	padding: 1rem;
+	color: var(--discussion-title-color);
+}
+
+.footnav a {
+	color: var(--discussion-title-color);
+}
+
+.copyright {
+	float: right;
+	font-size: 1rem;
+	padding: 1rem;
+	color: var(--discussion-title-color);
 }
