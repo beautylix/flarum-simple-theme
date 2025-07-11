@@ -116,7 +116,7 @@
 }
 
 .Header-title:before {
-	content: "medmarch";
+	content: "⊙o⊙";
 	visibility: initial;
 	font-weight: 600;
 	font-size: 2rem;
@@ -127,7 +127,6 @@
 }
 
 .footnav {
-	float: left;
 	font-size: 1rem;
 	padding: 1rem;
 	color: var(--discussion-title-color);
@@ -138,7 +137,6 @@
 }
 
 .copyright {
-	float: right;
 	font-size: 1rem;
 	padding: 1rem;
 	color: var(--discussion-title-color);
@@ -146,5 +144,7 @@
 
 .footer {
     background: #f5f5f5;
-    padding-bottom: 3.5rem;
+    display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
