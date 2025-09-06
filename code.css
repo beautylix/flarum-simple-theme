@@ -24,7 +24,7 @@
 
 .DiscussionHero .item-tags {
 	margin: auto 0;
-	text-align: right;
+        text-align: right;
 }
 
 
@@ -47,6 +47,15 @@
 .Post-body h2 {
 	border-left: 1.3em solid var(--secondary-color);
 	padding-left: .5em;
+	background: var(--alert-success-bg);
+}
+
+.Post-body h3 {
+	color: var(--button-primary-bg);
+}
+
+.Post-body h4 {
+	color: var(--discussion-title-color);
 }
 
 .IndexPage-nav .item-newDiscussion {
