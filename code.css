@@ -33,6 +33,7 @@
 .DiscussionHero-items {
 	display:flex;
 	flex-direction: row-reverse;
+	justify-content: space-between;
 	}
 	
 .DiscussionHero .item-tags {
