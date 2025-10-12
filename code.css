@@ -1,5 +1,4 @@
-.Post-body {
-	font-size: 18px;
+.Post-body {	font-size: 18px;
 }
 
 .Hero h1 {
@@ -178,4 +177,20 @@
     display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+    .sideNav, .sideNav>ul {
+        width: 240px;
+    }
+}
+
+@media (min-width: 768px) {
+  .DiscussionListItem-content {
+    padding-right: 10px;
+  }
+
+  .IndexPage .DiscussionListItem-title, .UserPage .DiscussionListItem-title {
+    margin-right: 10px !important;
+  }  
 }
